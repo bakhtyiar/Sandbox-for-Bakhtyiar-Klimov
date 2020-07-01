@@ -7,3 +7,12 @@ const arr1 = [-2, 10, 8, 1];
 arr1.reverse();
 arr1.toString();
 console.log(arr1);
+
+const arr2 = [-2, 10, 8, 1];
+
+for (let i=0; i < arr2.length; i++) {
+  let c = arr2.shift();
+  arr2.push(c);
+};
+
+console.log(...arr2);
